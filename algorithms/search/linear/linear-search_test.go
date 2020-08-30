@@ -33,30 +33,30 @@ func TestLinearSeach_failed(t *testing.T) {
 //------------------Benching-------------------
 func BenchmarkLinearSearch_10000(b *testing.B) {
 
-	slice := generateSlice(10000)
+	coll := generateCollection(10000)
 
 	for i := 0; i < b.N; i++ {
-		linearSearch(slice, 9999)
+		linearSearch(coll, 9999)
 	}
 
 }
 
 func BenchmarkLinearSearch_100000(b *testing.B) {
 
-	slice := generateSlice(100000)
+	coll := generateCollection(100000)
 
 	for i := 0; i < b.N; i++ {
-		linearSearch(slice, 99999)
+		linearSearch(coll, 99999)
 	}
 }
 
 //-----------------------------------------------------------
-func generateSlice(size int) []int {
-	var slice = []int{}
+func generateCollection(size int) []int {
+	var collection = []int{}
 
 	for i := 0; i < size; i++ {
-		slice = append(slice, i)
+		collection = append(collection, i)
 	}
 
-	return slice
+	return collection
 }
