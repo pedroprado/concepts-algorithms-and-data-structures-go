@@ -4,6 +4,8 @@ Algorithm that builds a sorted list gradually.
 
 It takes one element from the "sorting collection" and finds its place in a "sorted collection"
 
+Efficient when the collection is ALMOST SORTED
+
 ## Time Complexity
 
 Best case: O(n)  (collection is sorted)
