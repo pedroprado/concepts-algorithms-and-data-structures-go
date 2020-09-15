@@ -6,6 +6,8 @@ It takes one element from the "sorting collection" and finds its place in a "sor
 
 Efficient when the collection is ALMOST SORTED
 
+Only useful when the collection IS SMALL
+
 ## Time Complexity
 
 Best case: O(n)  (collection is sorted)

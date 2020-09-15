@@ -6,6 +6,8 @@ For each iteration, it compares "two by two" elements looking for the higher one
 
 At the end of the iteration, the highest element is in the last position of the collection.
 
+NOTE: Very rare to be used in PROFESSIONAL LIFE (not efficient)
+
 ## Time Complexity
 
 Best case: O(n)  (collection is sorted)

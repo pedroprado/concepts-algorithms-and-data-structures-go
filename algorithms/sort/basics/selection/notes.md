@@ -6,6 +6,8 @@ For each iteration, it compares "two by two" elements looking for the lower one.
 
 At the end of the iteration, the lowest value element is pulled to the beginning of the collection.
 
+NOTE: this algorithm most likely it is not going to be used in PROFESSIONAL LIFE (not efficient)
+
 ## Time Complexity
 
 Best case: O(n)  (collection is sorted)
